@@ -1,0 +1,182 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    padding: 15px;
+    color: white;
+}
+
+header .logo h1 {
+    font-size: 1.8rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: rgb(208, 154, 154);
+    padding: 120px 20px;
+}
+
+.hero .cta-button {
+    background-color: #e74c3c;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+
+.hero .cta-button:hover {
+    background-color: #c0392b;
+}
+
+.featured {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.featured h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.book-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.book-item {
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.book-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.book-item h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.book-item p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+
+.book-item .cta-button {
+    background-color: #e74c3c;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.book-item .cta-button:hover {
+    background-color: #c0392b;
+}
+
+.about {
+    background-color: #ecf0f1;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.contact button:hover {
+    background-color: #c0392b;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-media {
+    margin-bottom: 10px;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
